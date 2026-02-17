@@ -1,16 +1,43 @@
-# todo_app
+# To-Do List App
 
-A new Flutter project.
+A Flutter To-Do List application that allows users to add, complete, delete, and persist tasks locally using SharedPreferences.  
+The app features a clean UI and ensures tasks remain saved even after the app is closed.
 
-## Getting Started
+# Features:
+- Add new tasks
+- Mark tasks as completed
+- Delete individual tasks
+- Clear all tasks at once
+- Persistent local storage using SharedPreferences
+- Clean and responsive UI
+- Task completion with strike-through effect
 
-This project is a starting point for a Flutter application.
+# Technologies Used:
+- Flutter
+- Dart
+- SharedPreferences
+- JSON Encoding/Decoding
+- Material Design Widgets
+- StatefulWidget
 
-A few resources to get you started if this is your first Flutter project:
+# Local Storage:
+Tasks are stored locally using SharedPreferences.  
+Data is encoded into JSON format and saved on the device, ensuring persistence even after restarting the app.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# How It Works:
+- User enters a task in the input field.
+- Task is stored in a List of Map objects.
+- Data is converted to JSON and saved using SharedPreferences.
+- On app start, saved tasks are loaded and displayed.
+- Users can:
+  - Toggle completion status
+  - Delete specific tasks
+  - Clear all tasks
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Author:
+Mohini Santosh Malap
+
+GitHub: https://github.com/yourusername
+
+
+1. Clone the repository  
