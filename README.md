@@ -3,7 +3,7 @@
 A Flutter To-Do List application that allows users to add, complete, delete, and persist tasks locally using SharedPreferences.  
 The app features a clean UI and ensures tasks remain saved even after the app is closed.
 
-# Features:
+Features:
 - Add new tasks
 - Mark tasks as completed
 - Delete individual tasks
@@ -12,7 +12,7 @@ The app features a clean UI and ensures tasks remain saved even after the app is
 - Clean and responsive UI
 - Task completion with strike-through effect
 
-# Technologies Used:
+Technologies Used:
 - Flutter
 - Dart
 - SharedPreferences
@@ -20,11 +20,11 @@ The app features a clean UI and ensures tasks remain saved even after the app is
 - Material Design Widgets
 - StatefulWidget
 
-# Local Storage:
+Local Storage:
 Tasks are stored locally using SharedPreferences.  
 Data is encoded into JSON format and saved on the device, ensuring persistence even after restarting the app.
 
-# How It Works:
+How It Works:
 - User enters a task in the input field.
 - Task is stored in a List of Map objects.
 - Data is converted to JSON and saved using SharedPreferences.
@@ -34,7 +34,7 @@ Data is encoded into JSON format and saved on the device, ensuring persistence e
   - Delete specific tasks
   - Clear all tasks
 
-# Author:
+Author:
 Mohini Santosh Malap
 
 GitHub: https://github.com/yourusername
