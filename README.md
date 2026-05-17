@@ -31,15 +31,6 @@ Technologies Used:
 * Material Design
 
 
-Project Structure:
-- lib folder contains main application code
-- main.dart is the entry point of the application
-- screens folder contains UI pages (if used)
-- widgets folder contains reusable components (if used)
-- models folder contains task data structure (if used)
-- pubspec.yaml contains dependencies and configuration
-
-
 How to Run:
 
 1. Install Flutter SDK
@@ -60,7 +51,7 @@ Learning Outcomes:
 
 Connect With Me:
 
-GitHub: [https://github.com/Mohini-Malap
+GitHub: https://github.com/Mohini-Malap
 
 LinkedIn: https://linkedin.com/in/mohini-malap
 
